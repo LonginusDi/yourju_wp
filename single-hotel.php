@@ -212,8 +212,9 @@ if ( have_posts() ) {
 		<aside class="col-md-4">
 
 		<div class="box_style_1 expose">
-			<h3 class="inner"><?php echo esc_html__( 'Check Availability', 'citytours' ) ?></h3>
-			<?php if ( ct_get_hotel_cart_page() ) : ?>
+			<h3 class="inner"><?php echo esc_html__( '联系客服预定', 'citytours' ) ?></h3>
+			<img src="http://localhost/wp-content/uploads/2016/12/kefuQR.jpeg" width="100%">
+			<!-- <?php if ( ct_get_hotel_cart_page() ) : ?>
 			<form method="get" id="booking-form" action="<?php echo esc_url( ct_get_hotel_cart_page() ); ?>">
 				<input type="hidden" name="hotel_id" value="<?php echo esc_attr( $post_id ) ?>">
 				<div class="row">
@@ -247,7 +248,7 @@ if ( have_posts() ) {
 			</form>
 			<?php else : ?>
 				<?php echo wp_kses_post( sprintf( __( 'Please set hotel booking page on <a href="%s">Theme Options</a>/Hotel Main Settings', 'citytours' ), esc_url( admin_url( 'themes.php?page=CityTours' ) ) ) ); ?>
-			<?php endif; ?>
+			<?php endif; ?> -->
 		</div><!--/box_style_1 -->
 
 		<?php if ( is_active_sidebar( 'sidebar-hotel' ) ) : ?>

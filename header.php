@@ -64,7 +64,7 @@ global $ct_options;
 										<a href="#" class="dropdown-toggle" data-toggle="dropdown" id="access_link"><?php esc_html_e(  'Log in', 'citytours' ) ?></a>
 										<div class="dropdown-menu">
 											<div class="text-center">
-												<img src="<?php echo esc_url( ct_logo_sticky_url() ) ?>" width="160" height="34" alt="City tours" data-retina="true" class="logo_sticky">
+												<img src="<?php echo esc_url( ct_logo_sticky_url() ) ?>" width="112" height="40" alt="City tours" data-retina="true" class="logo_sticky">
 												<div class="login-or"><hr class="hr-or"></div>
 											</div>
 											<form name="loginform" action="<?php echo esc_url( wp_login_url() )?>" method="post" class="loginform">
@@ -118,8 +118,8 @@ global $ct_options;
 			<div class="row">
 				<div class="col-md-3 col-sm-3 col-xs-3">
 					<div id="logo">
-						<a href="<?php echo esc_url( home_url('/') ); ?>"><img src="<?php echo esc_url( ct_logo_url() ) ?>" width="160" height="34" alt="City tours" data-retina="true" class="logo_normal"></a>
-						<a href="<?php echo esc_url( home_url('/') ); ?>"><img src="<?php echo esc_url( ct_logo_sticky_url() ) ?>" width="160" height="34" alt="City tours" data-retina="true" class="logo_sticky"></a>
+						<a href="<?php echo esc_url( home_url('/') ); ?>"><img src="<?php echo esc_url( ct_logo_url() ) ?>" width="112" height="40" alt="City tours" data-retina="true" class="logo_normal"></a>
+						<a href="<?php echo esc_url( home_url('/') ); ?>"><img src="<?php echo esc_url( ct_logo_sticky_url() ) ?>" width="112" height="40" alt="City tours" data-retina="true" class="logo_sticky"></a>
 					</div>
 				</div>
 				<nav class="col-md-9 col-sm-9 col-xs-9">

